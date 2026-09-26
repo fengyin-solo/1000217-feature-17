@@ -32,4 +32,10 @@ body { margin: 0; background: #f6f8fb; color: #1f2937; }
 .btn.ghost { background: transparent; }
 .link { border: none; background: none; color: var(--brand); cursor: pointer; padding: 0; }
 .page-foot { display: flex; justify-content: space-between; margin-top: 8px; font-size: 12px; color: var(--muted); }
-.error-text { color: #b42318; }
+.error-text { color: #b42318; margin-right: 8px; }
+.filter-item select { padding: 5px 8px; min-width: 120px; }
+.filter-range { border: none; margin: 0; padding: 0; display: flex; align-items: flex-end; gap: 6px; }
+.filter-range legend { font-size: 12px; color: var(--muted); margin-bottom: 2px; padding: 0; }
+.filter-range input { width: 110px; }
+.range-sep { font-size: 12px; color: var(--muted); padding-bottom: 6px; }
+.negative-amount { color: #b42318; font-weight: 600; }
