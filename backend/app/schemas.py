@@ -215,11 +215,11 @@ class BudgetEntry(BaseModel):
     field_0: str | None = None  # 科目编号
     field_1: str | None = None  # 科目名称
     field_2: str | None = None  # 费用类别
-    field_3: str | None = None  # 预算金额
-    field_4: str | None = None  # 已用金额
-    field_5: str | None = None  # 剩余额度
-    field_6: str | None = None  # 审批人
-    field_7: str | None = None  # 科目状态
+    field_3: str | None = None  # 负责人
+    field_4: str | None = None  # 预算金额
+    field_5: str | None = None  # 已用金额
+    field_6: str | None = None  # 剩余额度
+    field_7: str | None = None  # 科目状态（超支原因允许为空，明细里按占位符展示）
 
 class ExpenseEntry(BaseModel):
     """报销单明细结构。"""
